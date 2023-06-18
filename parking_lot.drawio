@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T09:55:29.903Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cWpolozNXZEmYvTb3iAv" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T10:30:45.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XgPjJ8TdgNvCQM61JKLY" version="21.4.0" type="github">
   <diagram name="Page-1" id="o2xKIcE8YW7Dhm-UCasG">
-    <mxGraphModel dx="1853" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
           <mxGeometry x="-100" y="320" width="370" height="181" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="260" width="920" height="518" as="geometry" />
+          <mxGeometry x="-100" y="260" width="1410" height="518" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-24" value="ParkingSpot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="560" width="160" height="238" as="geometry" />
@@ -64,16 +64,16 @@
           <mxGeometry y="138" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-28" value="ParkingSpotManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="580" width="240" height="288" as="geometry" />
+          <mxGeometry x="330" y="580" width="240" height="232" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-31" value="+ parkingSpots: list&amp;lt;parkingSpot&amp;gt;&lt;br&gt;+ findParkingStrategy:&amp;nbsp;FindAvailableParkingSpot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-28">
           <mxGeometry y="26" width="240" height="54" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-29" value="+ ParkingSpotManager(list: parking spot):&amp;nbsp;&lt;br&gt;+ findParkingSpot(type)&lt;br&gt;+ addParkingSpot(parkingSpot)&lt;br&gt;+ removeParkingSpot(parkingSpot)&lt;br&gt;+ parkVehicle(parkingSpot):Ticket&lt;br&gt;+ emptyParkingSpot(parkingSpot)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-28">
-          <mxGeometry y="80" width="240" height="156" as="geometry" />
+          <mxGeometry y="80" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-28">
-          <mxGeometry y="236" width="240" height="52" as="geometry" />
+          <mxGeometry y="180" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-29" target="i1cMbVjfx4a0bRVD34qG-27">
           <mxGeometry relative="1" as="geometry" />
@@ -85,21 +85,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-59" value="«interface»&lt;br&gt;FindAvailableParkingSpot&lt;br&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="20" y="570" width="110" height="50" as="geometry" />
+          <mxGeometry x="-40" y="570" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.409;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.109;entryY=0.83;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-59" target="i1cMbVjfx4a0bRVD34qG-21">
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.409;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.704;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-59" target="i1cMbVjfx4a0bRVD34qG-64">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-30" y="700" as="sourcePoint" />
-            <mxPoint x="130" y="700" as="targetPoint" />
+            <mxPoint x="40" y="680" as="targetPoint" />
             <Array as="points">
               <mxPoint x="30" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-63" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.664;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.293;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-59" target="i1cMbVjfx4a0bRVD34qG-21">
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-63" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.664;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-59" target="i1cMbVjfx4a0bRVD34qG-67">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="165" y="660" as="sourcePoint" />
-            <mxPoint x="170" y="750" as="targetPoint" />
+            <mxPoint x="313" y="700" as="targetPoint" />
             <Array as="points">
               <mxPoint x="130" y="670" />
             </Array>
@@ -118,93 +118,85 @@
           <mxGeometry y="29" width="140" height="61" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-71" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="400" y="920" width="120" height="90" as="geometry" />
+          <mxGeometry x="701" y="869" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-72" value="+ number: string&lt;br&gt;+ type: Enum, big/small/large" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-71">
           <mxGeometry y="29" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-74" value="Ticket" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="610" y="910" width="140" height="100" as="geometry" />
+          <mxGeometry x="990" y="854" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-75" value="+ vechicle: Vechicle&lt;br&gt;+ parkingSpot: ParkingSpot&lt;br&gt;+ entry_time: datetime&lt;br&gt;+ chargeType: enum, default,hourly,min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-74">
-          <mxGeometry y="29" width="140" height="71" as="geometry" />
+          <mxGeometry y="29" width="200" height="91" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-72" target="i1cMbVjfx4a0bRVD34qG-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-89" value="«interface»&lt;br&gt;&lt;b&gt;Gate&lt;br&gt;- vehicle:Vechicle&amp;nbsp;&lt;br&gt;&lt;/b&gt;+ p&lt;span style=&quot;text-align: left;&quot;&gt;arkingSpotManager:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;ParkingSpotManager&lt;br&gt;updateParkingSpot(parkingSpot)&lt;br&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="850" width="290" height="50" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-89" value="«interface»&lt;br&gt;&lt;b&gt;Gate&lt;br&gt;&lt;br&gt;&lt;/b&gt;+ p&lt;span style=&quot;text-align: left;&quot;&gt;arkingSpotManager:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;ParkingSpotManager&lt;br&gt;updateParkingSpot(parkingSpot)&lt;br&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="820" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-90" value="EntranceGate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="960" width="220" height="156" as="geometry">
-            <mxRectangle x="-60" y="950" width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-90">
-          <mxGeometry y="26" width="220" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-93" value="+&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;updateParkingSpot&lt;/b&gt;(parkingSpot): type{parkingSpot.parkVehicle(vehicle)&lt;br&gt;}&lt;br&gt;+&amp;nbsp;EntranceGate(parkingSpotFinder&lt;br&gt;)&lt;br&gt;+ findParkingSpot()&lt;br&gt;+ bookParkingSpot(parkingSpot):Ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-90">
-          <mxGeometry y="34" width="220" height="122" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-94" target="i1cMbVjfx4a0bRVD34qG-136">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-94" value="ExitGate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="960" width="160" height="114" as="geometry" />
+          <mxGeometry x="170" y="940" width="160" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-95" value="ticket: Ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-94">
-          <mxGeometry y="20" width="160" height="26" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-95" value="ticket: Ticket&lt;br&gt;parkingCostCalculatorStrategy&lt;br&gt;paymentStrategy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-94">
+          <mxGeometry y="20" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-94">
-          <mxGeometry y="46" width="160" height="8" as="geometry" />
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-97" value="+&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;updateParkingSpot&lt;/b&gt;(parkingSpot):&amp;nbsp;&lt;br&gt;+ getParkingCost()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-94">
-          <mxGeometry y="54" width="160" height="60" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-97" value="+&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;updateParkingSpot&lt;/b&gt;(parkingSpot):&amp;nbsp;&lt;br&gt;+ getParkingCost()&lt;br&gt;+ capturePaymnet()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-94">
+          <mxGeometry y="78" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-99" value="ParkingFinderFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1028" width="160" height="114" as="geometry" />
+          <mxGeometry x="-210" y="610" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-100" value="+ getParkingFinderStrategy()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-99">
-          <mxGeometry y="26" width="160" height="80" as="geometry" />
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-101" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-99">
-          <mxGeometry y="106" width="160" height="8" as="geometry" />
+          <mxGeometry y="70" width="140" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-98" value="vehicle = Vehicle(number,type)&lt;br&gt;parkingFinderStrategy = ParkingFinderFactory.getParkingFinder(&quot;nearEntrance&quot;)&lt;br&gt;parkingSlotManager = ParkingSlotManager(parkingFinderStrategy&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;)&lt;br&gt;eg = EntranceGate(vehicle,parkingSlotManager)&lt;br&gt;parkingSlots=eg.findParkingSlot()&lt;br&gt;&lt;br&gt;ticket = eg.bookParkingSpot(parkingSlot)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="1260" width="450" height="130" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-98" value="vehicle = Vehicle(number,type)&lt;br&gt;parkingFinderStrategy = ParkingFinderFactory.getParkingFinder(&quot;nearEntrance&quot;)&lt;br&gt;parkingSlotManager = ParkingSlotManager(parkingFinderStrategy&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;)&lt;br&gt;eg = EntranceGate(vehicle,parkingSlotManager)&lt;br&gt;parkingSlots=eg.findParkingSlot()&lt;br&gt;&lt;br&gt;ticket = eg.bookParkingSpot(parkingSlot)&lt;br&gt;parkingCostStrategy =&amp;nbsp;&amp;nbsp;ParkingCostCalculatorFactory(ticket.charge_type,ticket.parkingSpot.price)&lt;br&gt;&lt;br&gt;eg = ExitGate(ticket,parkingSlotManager,parkingCostStrategy)&lt;br&gt;cost = eg.calculateParkingCost()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1250" width="540" height="190" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-103" value="«interface»&lt;br&gt;&lt;b&gt;ParkingCostCalculator&lt;br&gt;&lt;/b&gt;+ price&lt;br&gt;+ calculatParkingCost()" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1060" width="110" height="50" as="geometry" />
+          <mxGeometry x="430" y="1020" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-104" value="DefaultParkingCostCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1130" width="164" height="60" as="geometry" />
+          <mxGeometry x="155" y="1140" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-106" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-104">
-          <mxGeometry y="26" width="164" height="8" as="geometry" />
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-107" value="+&amp;nbsp;calculatParkingCost(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-104">
-          <mxGeometry y="34" width="164" height="26" as="geometry" />
+          <mxGeometry y="34" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-108" value="HourlyParkingCostCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1130" width="160" height="86" as="geometry" />
+          <mxGeometry x="370" y="1169" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-109" value="+ hourlyCost : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-108">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-108">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-111" value="+&amp;nbsp;calculatParkingCost(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-108">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="60" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-112" value="MinParkingCostCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1150" width="160" height="86" as="geometry" />
+          <mxGeometry x="570" y="1150" width="210" height="86" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-113" value="+ costPerMin : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-112">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-114" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-112">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-115" value="+&amp;nbsp;calculatParkingCost(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-112">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-116" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.637;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-103" target="i1cMbVjfx4a0bRVD34qG-104">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -212,7 +204,7 @@
             <mxPoint x="430" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-117" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="i1cMbVjfx4a0bRVD34qG-108">
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-117" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-103" target="i1cMbVjfx4a0bRVD34qG-108">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="440" y="1107" as="sourcePoint" />
             <mxPoint x="309" y="1137" as="targetPoint" />
@@ -225,13 +217,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-119" value="ParkingCostCalculatorFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1260" width="160" height="114" as="geometry" />
+          <mxGeometry x="570" y="1276" width="274" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="i1cMbVjfx4a0bRVD34qG-120" value="+ getParkingCostCalculatorStrategy(chargesType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-119">
-          <mxGeometry y="26" width="160" height="80" as="geometry" />
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-120" value="+ getParkingCostCalculatorStrategy(charge_type,price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-119">
+          <mxGeometry y="26" width="274" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i1cMbVjfx4a0bRVD34qG-121" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-119">
-          <mxGeometry y="106" width="160" height="8" as="geometry" />
+          <mxGeometry y="106" width="274" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-122" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-89">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="900" as="sourcePoint" />
+            <mxPoint x="39.6875" y="964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-123" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.438;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-89" target="i1cMbVjfx4a0bRVD34qG-94">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="940" as="sourcePoint" />
+            <mxPoint x="270" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-132" value="EntranceGate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="974" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-133" value="+ vehicle: Vehicle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-132">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-134" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-132">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-135" value="+&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;updateParkingSpot&lt;/b&gt;(parkingSpot): type{parkingSpot.parkVehicle(vehicle)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;EntranceGate(parkingSpotFinder&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ findParkingSpot()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ bookParkingSpot(parkingSpot):Ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-132">
+          <mxGeometry y="60" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-136" value="Payment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="830" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-137" value="+ vehicle&lt;br&gt;+ parking_spot&lt;br&gt;+ id&amp;nbsp;&lt;br&gt;+ captured_at&lt;br&gt;+ total_price" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-136">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-138" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-136">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-139" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1cMbVjfx4a0bRVD34qG-136">
+          <mxGeometry y="118" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="i1cMbVjfx4a0bRVD34qG-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i1cMbVjfx4a0bRVD34qG-137" target="i1cMbVjfx4a0bRVD34qG-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
