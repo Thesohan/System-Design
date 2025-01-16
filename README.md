@@ -37,7 +37,9 @@
 24) HeartBeats: https://lnkd.in/ggvzC9DU
 25) Checksums: https://lnkd.in/gGPEKV8b
 26) Batch vs Stream Processing: https://lnkd.in/gKtj_qWh
-27) Service Discovery: https://lnkd.in/gmy7v783
-28) Failover: https://lnkd.in/gMgcupDU
-29) Circuit Breaker: https://lnkd.in/gCxyFzKm
-30) Bloom Filters: https://lnkd.in/dt4QbSUz
+27) https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction
+28) https://systemdesign.one/system-design-interview-cheatsheet/#system-design-template
+29) Service Discovery: https://lnkd.in/gmy7v783
+30) Failover: https://lnkd.in/gMgcupDU
+31) Circuit Breaker: https://lnkd.in/gCxyFzKm
+32) Bloom Filters: https://lnkd.in/dt4QbSUz
