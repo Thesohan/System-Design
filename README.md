@@ -11,6 +11,8 @@
 ### High Level Design: Leetcode
 ![leetcode (1)](https://github.com/user-attachments/assets/2ee6cee8-6146-443b-8cfb-573474c0ada6)
 
+### High Level Design: Real time analytics dashboard
+![Real time analytics dashboard](https://github.com/user-attachments/assets/a8d42efc-64d8-4d6f-9c80-c39088a9c566)
 
 ### 30 Blogs to Learn 30 System Design Concepts:
 1) Scalability: https://lnkd.in/gPGhW-qK
