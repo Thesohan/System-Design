@@ -19,6 +19,10 @@
 3. FB live stream comments:
    ![fb-live-stream-comments excalidraw](https://github.com/user-attachments/assets/35d96c54-2263-424b-94f1-ebecb56051cf)
 
+4. Vulnerability scanner:
+   ![image](https://github.com/user-attachments/assets/90a4697c-feaa-48e8-ba4e-993ab2e24d8a)
+
+
 ### 30 Blogs to Learn 30 System Design Concepts:
 1) Scalability: https://lnkd.in/gPGhW-qK
 2) Availability: https://lnkd.in/gQk2p4_6
