@@ -25,6 +25,9 @@
 5. Uber Design:
    ![Uber High Level design excalidraw (1)](https://github.com/user-attachments/assets/c303c5d4-ff15-4c9a-a1ef-f0e6d3c12e54)
 
+6. Design a webcrawler
+   ![image](https://github.com/user-attachments/assets/aa9b5310-2580-48b6-8a3d-05dcbc7b7a87)
+
 
 ### 30 Blogs to Learn 30 System Design Concepts:
 1) Scalability: https://lnkd.in/gPGhW-qK
