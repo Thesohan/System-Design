@@ -28,6 +28,10 @@
 6. Design a webcrawler
 ![Design a webcrawler excalidraw (1)](https://github.com/user-attachments/assets/4a03fc8a-f418-4a5b-84e4-d54670a0fa87)
 
+7. Location-based meeting scheduler with tracking
+   ![Design a location based meeting scheduler excalidraw](https://github.com/user-attachments/assets/1970dc04-01cf-45c9-83ea-957c26220805)
+
+
 
 ### 30 Blogs to Learn 30 System Design Concepts:
 1) Scalability: https://lnkd.in/gPGhW-qK
