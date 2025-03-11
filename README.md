@@ -31,6 +31,8 @@
 7. Location-based meeting scheduler with tracking
    ![Design a location based meeting scheduler excalidraw](https://github.com/user-attachments/assets/1970dc04-01cf-45c9-83ea-957c26220805)
 
+8. Location-based meeting scheduler with multiple calender integration
+![meeting excalidraw (1)](https://github.com/user-attachments/assets/27715f8d-28ce-4b00-ba56-ba3521411b1f)
 
 
 ### 30 Blogs to Learn 30 System Design Concepts:
