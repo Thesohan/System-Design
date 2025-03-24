@@ -34,6 +34,8 @@
 8. Location-based meeting scheduler with multiple calender integration
 ![meeting excalidraw (1)](https://github.com/user-attachments/assets/27715f8d-28ce-4b00-ba56-ba3521411b1f)
 
+9. Notification service:
+![notification service excalidraw](https://github.com/user-attachments/assets/8f421415-cd84-44f9-a9bb-a5289a2fe7d4)
 
 ### 30 Blogs to Learn 30 System Design Concepts:
 1) Scalability: https://lnkd.in/gPGhW-qK
